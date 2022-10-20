@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Epic Task</title>
+</head>
+
+<body>
+    <h1>Epic Task</h1>
+
+    <form action="">
+        <label class="hide" for="titulo">titulo</label>
+        <input type="text" name="titulo" id="titulo" placeholder="titulo">
+
+        <label class="hide" for="pontos">pontos</label>
+        <input type="number" placeholder="pontos" id="pontos" name="pontos">
+        <button class="botao" id="botaoAdicionar" value="click">Adicionar</button>
+    </form>
+
+    <section id="tarefas">
+        <div role="card" class="card">
+            <h2>protótipo</h2>
+            <span>50 pontos</span>
+            <meter value="50" min="0" max="100"></meter>
+            <button class="botao">Finalizar</button>
+        </div>
+    </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>
